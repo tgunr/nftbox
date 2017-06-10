@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75413FD01EEBA0BB003A11F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */; };
+		75413FD21EEBA0BB003A11F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD11EEBA0BB003A11F1 /* ViewController.swift */; };
+		75413FD41EEBA0BB003A11F1 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD31EEBA0BB003A11F1 /* Document.swift */; };
+		75413FD71EEBA0BB003A11F1 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD51EEBA0BB003A11F1 /* Document.xcdatamodeld */; };
+		75413FD91EEBA0BB003A11F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75413FD81EEBA0BB003A11F1 /* Assets.xcassets */; };
+		75413FDC1EEBA0BB003A11F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75413FDA1EEBA0BB003A11F1 /* Main.storyboard */; };
+		75413FE81EEBA0BB003A11F1 /* nftboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */; };
+		75413FF31EEBA0BB003A11F1 /* nftboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75413FE41EEBA0BB003A11F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75413FC41EEBA0BB003A11F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75413FCB1EEBA0BB003A11F1;
+			remoteInfo = nftbox;
+		};
+		75413FEF1EEBA0BB003A11F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75413FC41EEBA0BB003A11F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75413FCB1EEBA0BB003A11F1;
+			remoteInfo = nftbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75413FCC1EEBA0BB003A11F1 /* nftbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nftbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75413FD11EEBA0BB003A11F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75413FD31EEBA0BB003A11F1 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		75413FD61EEBA0BB003A11F1 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		75413FD81EEBA0BB003A11F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75413FDB1EEBA0BB003A11F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75413FDD1EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75413FDE1EEBA0BB003A11F1 /* nftbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nftbox.entitlements; sourceTree = "<group>"; };
+		75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nftboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftboxTests.swift; sourceTree = "<group>"; };
+		75413FE91EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nftboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftboxUITests.swift; sourceTree = "<group>"; };
+		75413FF41EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75413FC91EEBA0BB003A11F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FE01EEBA0BB003A11F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FEB1EEBA0BB003A11F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75413FC31EEBA0BB003A11F1 = {
+			isa = PBXGroup;
+			children = (
+				75413FCE1EEBA0BB003A11F1 /* nftbox */,
+				75413FE61EEBA0BB003A11F1 /* nftboxTests */,
+				75413FF11EEBA0BB003A11F1 /* nftboxUITests */,
+				75413FCD1EEBA0BB003A11F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75413FCD1EEBA0BB003A11F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75413FCC1EEBA0BB003A11F1 /* nftbox.app */,
+				75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */,
+				75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75413FCE1EEBA0BB003A11F1 /* nftbox */ = {
+			isa = PBXGroup;
+			children = (
+				75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */,
+				75413FD11EEBA0BB003A11F1 /* ViewController.swift */,
+				75413FD31EEBA0BB003A11F1 /* Document.swift */,
+				75413FD81EEBA0BB003A11F1 /* Assets.xcassets */,
+				75413FDA1EEBA0BB003A11F1 /* Main.storyboard */,
+				75413FDD1EEBA0BB003A11F1 /* Info.plist */,
+				75413FDE1EEBA0BB003A11F1 /* nftbox.entitlements */,
+				75413FD51EEBA0BB003A11F1 /* Document.xcdatamodeld */,
+			);
+			path = nftbox;
+			sourceTree = "<group>";
+		};
+		75413FE61EEBA0BB003A11F1 /* nftboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */,
+				75413FE91EEBA0BB003A11F1 /* Info.plist */,
+			);
+			path = nftboxTests;
+			sourceTree = "<group>";
+		};
+		75413FF11EEBA0BB003A11F1 /* nftboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */,
+				75413FF41EEBA0BB003A11F1 /* Info.plist */,
+			);
+			path = nftboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75413FCB1EEBA0BB003A11F1 /* nftbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75413FF71EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftbox" */;
+			buildPhases = (
+				75413FC81EEBA0BB003A11F1 /* Sources */,
+				75413FC91EEBA0BB003A11F1 /* Frameworks */,
+				75413FCA1EEBA0BB003A11F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nftbox;
+			productName = nftbox;
+			productReference = 75413FCC1EEBA0BB003A11F1 /* nftbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75413FE21EEBA0BB003A11F1 /* nftboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75413FFA1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxTests" */;
+			buildPhases = (
+				75413FDF1EEBA0BB003A11F1 /* Sources */,
+				75413FE01EEBA0BB003A11F1 /* Frameworks */,
+				75413FE11EEBA0BB003A11F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75413FE51EEBA0BB003A11F1 /* PBXTargetDependency */,
+			);
+			name = nftboxTests;
+			productName = nftboxTests;
+			productReference = 75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75413FED1EEBA0BB003A11F1 /* nftboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75413FFD1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxUITests" */;
+			buildPhases = (
+				75413FEA1EEBA0BB003A11F1 /* Sources */,
+				75413FEB1EEBA0BB003A11F1 /* Frameworks */,
+				75413FEC1EEBA0BB003A11F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75413FF01EEBA0BB003A11F1 /* PBXTargetDependency */,
+			);
+			name = nftboxUITests;
+			productName = nftboxUITests;
+			productReference = 75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75413FC41EEBA0BB003A11F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Polymicro Systems";
+				TargetAttributes = {
+					75413FCB1EEBA0BB003A11F1 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					75413FE21EEBA0BB003A11F1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 75413FCB1EEBA0BB003A11F1;
+					};
+					75413FED1EEBA0BB003A11F1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 75413FCB1EEBA0BB003A11F1;
+					};
+				};
+			};
+			buildConfigurationList = 75413FC71EEBA0BB003A11F1 /* Build configuration list for PBXProject "nftbox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75413FC31EEBA0BB003A11F1;
+			productRefGroup = 75413FCD1EEBA0BB003A11F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75413FCB1EEBA0BB003A11F1 /* nftbox */,
+				75413FE21EEBA0BB003A11F1 /* nftboxTests */,
+				75413FED1EEBA0BB003A11F1 /* nftboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75413FCA1EEBA0BB003A11F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75413FD91EEBA0BB003A11F1 /* Assets.xcassets in Resources */,
+				75413FDC1EEBA0BB003A11F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FE11EEBA0BB003A11F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FEC1EEBA0BB003A11F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75413FC81EEBA0BB003A11F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75413FD71EEBA0BB003A11F1 /* Document.xcdatamodeld in Sources */,
+				75413FD21EEBA0BB003A11F1 /* ViewController.swift in Sources */,
+				75413FD01EEBA0BB003A11F1 /* AppDelegate.swift in Sources */,
+				75413FD41EEBA0BB003A11F1 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FDF1EEBA0BB003A11F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75413FE81EEBA0BB003A11F1 /* nftboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75413FEA1EEBA0BB003A11F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75413FF31EEBA0BB003A11F1 /* nftboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75413FE51EEBA0BB003A11F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75413FCB1EEBA0BB003A11F1 /* nftbox */;
+			targetProxy = 75413FE41EEBA0BB003A11F1 /* PBXContainerItemProxy */;
+		};
+		75413FF01EEBA0BB003A11F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75413FCB1EEBA0BB003A11F1 /* nftbox */;
+			targetProxy = 75413FEF1EEBA0BB003A11F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75413FDA1EEBA0BB003A11F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75413FDB1EEBA0BB003A11F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75413FF51EEBA0BB003A11F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75413FF61EEBA0BB003A11F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		75413FF81EEBA0BB003A11F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nftbox/nftbox.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		75413FF91EEBA0BB003A11F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nftbox/nftbox.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		75413FFB1EEBA0BB003A11F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nftbox.app/Contents/MacOS/nftbox";
+			};
+			name = Debug;
+		};
+		75413FFC1EEBA0BB003A11F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nftbox.app/Contents/MacOS/nftbox";
+			};
+			name = Release;
+		};
+		75413FFE1EEBA0BB003A11F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = nftbox;
+			};
+			name = Debug;
+		};
+		75413FFF1EEBA0BB003A11F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL3267E99V;
+				INFOPLIST_FILE = nftboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = nftbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75413FC71EEBA0BB003A11F1 /* Build configuration list for PBXProject "nftbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75413FF51EEBA0BB003A11F1 /* Debug */,
+				75413FF61EEBA0BB003A11F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75413FF71EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75413FF81EEBA0BB003A11F1 /* Debug */,
+				75413FF91EEBA0BB003A11F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75413FFA1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75413FFB1EEBA0BB003A11F1 /* Debug */,
+				75413FFC1EEBA0BB003A11F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75413FFD1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75413FFE1EEBA0BB003A11F1 /* Debug */,
+				75413FFF1EEBA0BB003A11F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75413FD51EEBA0BB003A11F1 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75413FD61EEBA0BB003A11F1 /* Document.xcdatamodel */,
+			);
+			currentVersion = 75413FD61EEBA0BB003A11F1 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75413FC41EEBA0BB003A11F1 /* Project object */;
+}
