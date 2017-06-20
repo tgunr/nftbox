@@ -8,66 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		75413FD01EEBA0BB003A11F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */; };
-		75413FD21EEBA0BB003A11F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD11EEBA0BB003A11F1 /* ViewController.swift */; };
+		75413FD21EEBA0BB003A11F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD11EEBA0BB003A11F1 /* MainViewController.swift */; };
 		75413FD41EEBA0BB003A11F1 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD31EEBA0BB003A11F1 /* Document.swift */; };
 		75413FD71EEBA0BB003A11F1 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75413FD51EEBA0BB003A11F1 /* Document.xcdatamodeld */; };
 		75413FD91EEBA0BB003A11F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75413FD81EEBA0BB003A11F1 /* Assets.xcassets */; };
 		75413FDC1EEBA0BB003A11F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75413FDA1EEBA0BB003A11F1 /* Main.storyboard */; };
-		75413FE81EEBA0BB003A11F1 /* nftboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */; };
-		75413FF31EEBA0BB003A11F1 /* nftboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */; };
+		754E5FF91EF6E78500C87E15 /* nftable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E5FF81EF6E78500C87E15 /* nftable.swift */; };
+		7551465A1EEBAEEF003A11F1 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755146591EEBAEEF003A11F1 /* TargetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		75413FE41EEBA0BB003A11F1 /* PBXContainerItemProxy */ = {
+		754E603C1EF8A16C00C87E15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 75413FC41EEBA0BB003A11F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75413FCB1EEBA0BB003A11F1;
-			remoteInfo = nftbox;
+			containerPortal = 754E60371EF8A16B00C87E15 /* Antlr4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_202;
+			remoteInfo = Antlr4;
 		};
-		75413FEF1EEBA0BB003A11F1 /* PBXContainerItemProxy */ = {
+		754E603E1EF8A16C00C87E15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 75413FC41EEBA0BB003A11F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75413FCB1EEBA0BB003A11F1;
-			remoteInfo = nftbox;
+			containerPortal = 754E60371EF8A16B00C87E15 /* Antlr4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_203;
+			remoteInfo = Antlr4Tests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		75413FCC1EEBA0BB003A11F1 /* nftbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nftbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75413FD11EEBA0BB003A11F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75413FD11EEBA0BB003A11F1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		75413FD31EEBA0BB003A11F1 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		75413FD61EEBA0BB003A11F1 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
 		75413FD81EEBA0BB003A11F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75413FDB1EEBA0BB003A11F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75413FDD1EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75413FDE1EEBA0BB003A11F1 /* nftbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nftbox.entitlements; sourceTree = "<group>"; };
-		75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nftboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftboxTests.swift; sourceTree = "<group>"; };
-		75413FE91EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nftboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftboxUITests.swift; sourceTree = "<group>"; };
-		75413FF41EEBA0BB003A11F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754E5FF81EF6E78500C87E15 /* nftable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftable.swift; sourceTree = "<group>"; };
+		754E60371EF8A16B00C87E15 /* Antlr4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Antlr4.xcodeproj; path = ../../GitHub/antlr4/runtime/Swift/Antlr4.xcodeproj; sourceTree = "<group>"; };
+		755146591EEBAEEF003A11F1 /* TargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		75413FC91EEBA0BB003A11F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75413FE01EEBA0BB003A11F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75413FEB1EEBA0BB003A11F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,9 +63,8 @@
 		75413FC31EEBA0BB003A11F1 = {
 			isa = PBXGroup;
 			children = (
+				754E60371EF8A16B00C87E15 /* Antlr4.xcodeproj */,
 				75413FCE1EEBA0BB003A11F1 /* nftbox */,
-				75413FE61EEBA0BB003A11F1 /* nftboxTests */,
-				75413FF11EEBA0BB003A11F1 /* nftboxUITests */,
 				75413FCD1EEBA0BB003A11F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				75413FCC1EEBA0BB003A11F1 /* nftbox.app */,
-				75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */,
-				75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,33 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				75413FCF1EEBA0BB003A11F1 /* AppDelegate.swift */,
-				75413FD11EEBA0BB003A11F1 /* ViewController.swift */,
+				754E5FF81EF6E78500C87E15 /* nftable.swift */,
+				75413FD11EEBA0BB003A11F1 /* MainViewController.swift */,
 				75413FD31EEBA0BB003A11F1 /* Document.swift */,
 				75413FD81EEBA0BB003A11F1 /* Assets.xcassets */,
 				75413FDA1EEBA0BB003A11F1 /* Main.storyboard */,
 				75413FDD1EEBA0BB003A11F1 /* Info.plist */,
 				75413FDE1EEBA0BB003A11F1 /* nftbox.entitlements */,
 				75413FD51EEBA0BB003A11F1 /* Document.xcdatamodeld */,
+				755146591EEBAEEF003A11F1 /* TargetViewController.swift */,
 			);
 			path = nftbox;
 			sourceTree = "<group>";
 		};
-		75413FE61EEBA0BB003A11F1 /* nftboxTests */ = {
+		754E60381EF8A16B00C87E15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75413FE71EEBA0BB003A11F1 /* nftboxTests.swift */,
-				75413FE91EEBA0BB003A11F1 /* Info.plist */,
+				754E603D1EF8A16C00C87E15 /* Antlr4.framework */,
+				754E603F1EF8A16C00C87E15 /* Antlr4Tests.xctest */,
 			);
-			path = nftboxTests;
-			sourceTree = "<group>";
-		};
-		75413FF11EEBA0BB003A11F1 /* nftboxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75413FF21EEBA0BB003A11F1 /* nftboxUITests.swift */,
-				75413FF41EEBA0BB003A11F1 /* Info.plist */,
-			);
-			path = nftboxUITests;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,42 +123,6 @@
 			productReference = 75413FCC1EEBA0BB003A11F1 /* nftbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75413FE21EEBA0BB003A11F1 /* nftboxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75413FFA1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxTests" */;
-			buildPhases = (
-				75413FDF1EEBA0BB003A11F1 /* Sources */,
-				75413FE01EEBA0BB003A11F1 /* Frameworks */,
-				75413FE11EEBA0BB003A11F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75413FE51EEBA0BB003A11F1 /* PBXTargetDependency */,
-			);
-			name = nftboxTests;
-			productName = nftboxTests;
-			productReference = 75413FE31EEBA0BB003A11F1 /* nftboxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		75413FED1EEBA0BB003A11F1 /* nftboxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75413FFD1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxUITests" */;
-			buildPhases = (
-				75413FEA1EEBA0BB003A11F1 /* Sources */,
-				75413FEB1EEBA0BB003A11F1 /* Frameworks */,
-				75413FEC1EEBA0BB003A11F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75413FF01EEBA0BB003A11F1 /* PBXTargetDependency */,
-			);
-			name = nftboxUITests;
-			productName = nftboxUITests;
-			productReference = 75413FEE1EEBA0BB003A11F1 /* nftboxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +135,6 @@
 				TargetAttributes = {
 					75413FCB1EEBA0BB003A11F1 = {
 						CreatedOnToolsVersion = 9.0;
-					};
-					75413FE21EEBA0BB003A11F1 = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 75413FCB1EEBA0BB003A11F1;
-					};
-					75413FED1EEBA0BB003A11F1 = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 75413FCB1EEBA0BB003A11F1;
 					};
 				};
 			};
@@ -220,14 +149,35 @@
 			mainGroup = 75413FC31EEBA0BB003A11F1;
 			productRefGroup = 75413FCD1EEBA0BB003A11F1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 754E60381EF8A16B00C87E15 /* Products */;
+					ProjectRef = 754E60371EF8A16B00C87E15 /* Antlr4.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				75413FCB1EEBA0BB003A11F1 /* nftbox */,
-				75413FE21EEBA0BB003A11F1 /* nftboxTests */,
-				75413FED1EEBA0BB003A11F1 /* nftboxUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		754E603D1EF8A16C00C87E15 /* Antlr4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Antlr4.framework;
+			remoteRef = 754E603C1EF8A16C00C87E15 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		754E603F1EF8A16C00C87E15 /* Antlr4Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = Antlr4Tests.xctest;
+			remoteRef = 754E603E1EF8A16C00C87E15 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		75413FCA1EEBA0BB003A11F1 /* Resources */ = {
@@ -239,20 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75413FE11EEBA0BB003A11F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75413FEC1EEBA0BB003A11F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,43 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754E5FF91EF6E78500C87E15 /* nftable.swift in Sources */,
 				75413FD71EEBA0BB003A11F1 /* Document.xcdatamodeld in Sources */,
-				75413FD21EEBA0BB003A11F1 /* ViewController.swift in Sources */,
+				7551465A1EEBAEEF003A11F1 /* TargetViewController.swift in Sources */,
+				75413FD21EEBA0BB003A11F1 /* MainViewController.swift in Sources */,
 				75413FD01EEBA0BB003A11F1 /* AppDelegate.swift in Sources */,
 				75413FD41EEBA0BB003A11F1 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75413FDF1EEBA0BB003A11F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75413FE81EEBA0BB003A11F1 /* nftboxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75413FEA1EEBA0BB003A11F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75413FF31EEBA0BB003A11F1 /* nftboxUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		75413FE51EEBA0BB003A11F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75413FCB1EEBA0BB003A11F1 /* nftbox */;
-			targetProxy = 75413FE41EEBA0BB003A11F1 /* PBXContainerItemProxy */;
-		};
-		75413FF01EEBA0BB003A11F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75413FCB1EEBA0BB003A11F1 /* nftbox */;
-			targetProxy = 75413FEF1EEBA0BB003A11F1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		75413FDA1EEBA0BB003A11F1 /* Main.storyboard */ = {
@@ -442,68 +351,6 @@
 			};
 			name = Release;
 		};
-		75413FFB1EEBA0BB003A11F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NL3267E99V;
-				INFOPLIST_FILE = nftboxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nftbox.app/Contents/MacOS/nftbox";
-			};
-			name = Debug;
-		};
-		75413FFC1EEBA0BB003A11F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NL3267E99V;
-				INFOPLIST_FILE = nftboxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nftbox.app/Contents/MacOS/nftbox";
-			};
-			name = Release;
-		};
-		75413FFE1EEBA0BB003A11F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NL3267E99V;
-				INFOPLIST_FILE = nftboxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = nftbox;
-			};
-			name = Debug;
-		};
-		75413FFF1EEBA0BB003A11F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NL3267E99V;
-				INFOPLIST_FILE = nftboxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.polymicro.nftboxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = nftbox;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,22 +370,7 @@
 				75413FF91EEBA0BB003A11F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		75413FFA1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75413FFB1EEBA0BB003A11F1 /* Debug */,
-				75413FFC1EEBA0BB003A11F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		75413FFD1EEBA0BB003A11F1 /* Build configuration list for PBXNativeTarget "nftboxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75413FFE1EEBA0BB003A11F1 /* Debug */,
-				75413FFF1EEBA0BB003A11F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
