@@ -2,6 +2,8 @@
 
 import MapKit
 import PlaygroundSupport
+import Antlr4
+import Sequence
 
 enum NFFamily {
     case ip, ip6, inet, arp, bridge, netdev
@@ -42,3 +44,31 @@ enum TCPFlag: Int {
     case ecn = 0x40
     case cwr = 0x80
 }
+
+class test {
+    let input: ANTLRInputStream
+    let lexer: SequenceLexer
+    let tokens: CommonTokenStream
+    let parser: SequenceParser
+    var tree: ParseTree
+
+    func sin() -> Data {
+        let standardInput = FileHandle.standardInput
+        let input = standardInput.availableData
+        return input
+    }
+    
+    init() {
+        input = ANTLRInputStream("{99, 3, 451}")
+        lexer = SequenceLexer(input)
+        tokens = CommonTokenStream(lexer)
+        parser = try! SequenceParser.init(tokens)
+        tree = try? parser.seq()
+    }
+}
+
+var t = test()
+t.tree
+
+
+
